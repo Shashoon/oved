@@ -86,8 +86,7 @@ export default [
   },
   {
     name: 'Robinetta Walklott',
-    imageUrl:
-      'https://robohash.org/praesentiumadipisciofficia.png?size=50x50&set=set1',
+    imageUrl: 'https://picsum.photos/200',
     skills: 'Event planning',
     bio: 'Integer tincidunt ante vel ipsum.',
   },
