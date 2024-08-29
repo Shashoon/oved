@@ -1,11 +1,10 @@
 import React from 'react';
 import {FlatList, Image, StyleSheet, Text, View} from 'react-native';
 import users from '../../assets/data/users';
-import {SafeAreaView} from 'react-native-safe-area-context';
 
 const CollabsScreen = () => {
   return (
-    <SafeAreaView style={styles.pageContainer} edges={['top', 'left', 'right']}>
+    <View style={styles.pageContainer}>
       <View style={styles.newConContainer}>
         <Text style={styles.containerTitle}>New Connections</Text>
         <FlatList
@@ -46,7 +45,7 @@ const CollabsScreen = () => {
           />
         </View>
       </View>
-    </SafeAreaView>
+    </View>
   );
 };
 
@@ -56,8 +55,10 @@ const styles = StyleSheet.create({
     height: '100%',
     paddingTop: 10,
     gap: 30,
+    backgroundColor: 'transparent',
   },
   newConContainer: {
+    maxHeight: '25%',
     paddingVertical: 20,
     paddingHorizontal: 10,
     backgroundColor: 'rgba(26, 26, 26, 0.1)',
@@ -111,7 +112,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   chatsContainer: {
-    height: '75%',
+    height: '83%',
     paddingVertical: 20,
     paddingHorizontal: 10,
     backgroundColor: 'rgba(26, 26, 26, 0.1)',
@@ -159,8 +160,8 @@ const styles = StyleSheet.create({
   chatItemMsg: {
     fontSize: 14,
     width: '100%',
-    color: '#fcf7ff',
-    fontWeight: '500',
+    color: 'rgb(224 216 227)',
+    fontWeight: '600',
   },
 });
 

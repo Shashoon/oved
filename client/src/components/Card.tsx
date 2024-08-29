@@ -29,11 +29,11 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-start',
     alignItems: 'center',
     columnGap: 10,
-    backgroundColor: '#fcf7ff',
-    borderColor: '#c6c0ca',
+    padding: 10,
+    backgroundColor: 'rgba(26, 26, 26, 0.1)',
+    borderColor: 'rgba(255, 255, 255, 0.5)',
     borderWidth: 0.5,
     borderRadius: 15,
-    padding: 10,
     shadowColor: '#000000',
     shadowOffset: {
       width: 0,
@@ -56,7 +56,7 @@ const styles = StyleSheet.create({
     width: '70%',
   },
   cardTitle: {
-    color: '#1a181b',
+    color: '#fcf7ff',
     fontSize: 16,
     fontWeight: '700',
   },
@@ -67,7 +67,8 @@ const styles = StyleSheet.create({
   },
   cardBio: {
     fontSize: 12,
-    color: '#1a181b',
+    fontWeight: '700',
+    color: 'rgb(224 216 227)',
     width: '100%',
   },
 });
