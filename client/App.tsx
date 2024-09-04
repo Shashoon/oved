@@ -5,6 +5,10 @@ import {NavigationContainer, ParamListBase} from '@react-navigation/native';
 import HomeScreen from './src/screens/HomeScreen';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import Ionicons from 'react-native-vector-icons/Ionicons';
+import {Amplify} from 'aws-amplify';
+import outputs from './amplify_outputs.json';
+
+Amplify.configure(outputs);
 
 export type RootStackParamList = {
   Home: undefined;
