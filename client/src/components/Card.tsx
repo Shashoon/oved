@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
   },
   imageContainer: {
     width: '25%',
-    height: '90%',
+    height: '100%',
     borderRadius: 15,
     borderColor: '#c6c0ca',
     borderWidth: 0.5,

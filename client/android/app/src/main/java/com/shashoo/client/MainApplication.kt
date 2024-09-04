@@ -1,4 +1,4 @@
-package com.client
+package com.shashoo.client
 import android.content.res.Configuration
 import expo.modules.ApplicationLifecycleDispatcher
 import expo.modules.ReactNativeHostWrapper

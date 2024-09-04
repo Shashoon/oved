@@ -95,7 +95,7 @@ const styles = StyleSheet.create({
   itemImage: {
     width: 60,
     height: 60,
-    borderRadius: '50%',
+    borderRadius: 50,
     borderColor: 'rgba(255, 255, 255, 0.8)',
     borderWidth: 1,
   },
@@ -143,7 +143,7 @@ const styles = StyleSheet.create({
   chatItemImage: {
     width: 60,
     height: 60,
-    borderRadius: '50%',
+    borderRadius: 15,
     borderColor: 'rgba(255, 255, 255, 0.8)',
     borderWidth: 1,
   },

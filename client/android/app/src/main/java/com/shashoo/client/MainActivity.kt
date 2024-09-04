@@ -1,4 +1,4 @@
-package com.client
+package com.shashoo.client
 import expo.modules.ReactActivityDelegateWrapper
 
 import com.facebook.react.ReactActivity
