@@ -6,9 +6,10 @@ import HomeScreen from './src/screens/HomeScreen';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import {Amplify} from 'aws-amplify';
-import outputs from './amplify_outputs.json';
+// import awsconfig from './src/aws-exports';
+import {withAuthenticator} from '@aws-amplify/ui-react-native';
 
-Amplify.configure(outputs);
+// Amplify.configure(awsconfig);
 
 export type RootStackParamList = {
   Home: undefined;
@@ -113,4 +114,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default withAuthenticator(App);
